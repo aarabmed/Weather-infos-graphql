@@ -12,7 +12,7 @@ const app = express()
 const httpServer = http.createServer(app);
 
 const corsOptions = {
-  origin: [" http://localhost:9000/", "https://weatherinfos-graphql-c093b8cbc616.herokuapp.com"]
+  origin: [" http://localhost:9000/", "https://weatherup-5ebb929523f3.herokuapp.com/"]
 };
 
 // Put together a schema
