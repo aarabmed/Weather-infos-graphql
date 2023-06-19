@@ -26,9 +26,7 @@ module.exports={
         let res =[]
        
             if(cityName===''){
-                const error = new Error('No city name has been provided!')
-                error.code = 400
-                throw error
+                return []
             }
             const newCityName = cityName.split(' ');
             if(newCityName.length>1){
