@@ -73,7 +73,7 @@ module.exports={
             icon:icon
         }
         const current = {
-            
+            localTime: res.location.localtime,
             location_name: res.location.name,
             location_country: res.location.country,
             temp_Celsius: res.current.temp_c,
