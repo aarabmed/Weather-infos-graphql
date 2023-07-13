@@ -19,6 +19,7 @@ const corsOptions = {
 const server = new ApolloServer({
   schema,
   cors: corsOptions,
+  persistedQueries: false,
   introspection: true,
   playground: true,
   plugins: [ApolloServerPluginDrainHttpServer({ httpServer })],
